@@ -78,9 +78,12 @@
 }
 .body_profile_card_conatiner_21126107 {
   display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 10px 0px;
 }
 .body_profile_card_21126107 {
-  width: 250px;
+  width: 230px;
   background-color: black;
   padding: 20px 15px 20px 15px;
   border-radius: 6px;
@@ -108,4 +111,37 @@
   color: brown;
   font-size: 15px;
   text-align: center;
+}
+.card_icon_21126107 {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+  justify-content: space-around;
+}
+.card_icon_21126107 li a i {
+  color: white;
+}
+.card_icon_21126107 li a i:hover {
+  color: aqua;
+}
+.card_button_box_21126107 {
+  display: flex;
+  justify-content: center;
+}
+.card_button_21126107 {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  border: 1px solid brown;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+.card_button_21126107 a {
+  color: white;
+  text-decoration: none;
+}
+.footer_profile_21126107 {
+  background-color: beige;
+  padding: 10px 30px 10px 30px;
 }
